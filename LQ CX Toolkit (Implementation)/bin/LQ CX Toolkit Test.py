@@ -3,7 +3,7 @@ import requests
 import time
 import subprocess 
 
-currentVersion = "1.0.0"
+currentVersion = "V1.0.0"
 URL = urllib.request.urlopen('https://raw.githubusercontent.com/Mcrob1989/LQ_CX_Toolkit/main/LQ%20CX%20Toolkit%20(Implementation)/version_check.txt')
 
 data = URL.read().decode('utf-8')
